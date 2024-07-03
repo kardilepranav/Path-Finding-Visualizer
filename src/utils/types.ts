@@ -8,7 +8,8 @@ export type TileType = {
 	isEnd: boolean;
 	isWall: boolean;
 	isPath: boolean;
-	distance: number;
+  distance: number;
+  isTraversed: boolean;
 	isStart: boolean;
 	parent: TileType | null;
 };
